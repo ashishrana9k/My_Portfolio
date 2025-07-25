@@ -26,20 +26,20 @@ export default function About() {
   return (
     <>
       <div className='container'>
-        <div className='space-y-24'>
-          <div className='h-[70vh] flex items-center'>
+        <div className=' space-y-14 xl:space-y-24 px-4'>
+          <div className=' flex items-center'>
             <div>
-              <div className='text-center py-12'>
-                <h2 className='text-5xl'>About me</h2>
+              <div className='text-center pt-12 xl:py-12'>
+                <h2 className='text-2xl xl:text-5xl'>About me</h2>
               </div>
 
-              <div className='grid grid-cols-[auto_70%] mt-12'>
-                <div className="">
-                  <img src="https://cbx-prod.b-cdn.net/COLOURBOX60951456.jpg?width=800&height=800&quality=70" className='h-100 rounded-4xl' alt="" />
+              <div className='grid lg:grid-cols-[auto_70%] mt-12'>
+                <div className="mx-auto">
+                  <img src="https://cbx-prod.b-cdn.net/COLOURBOX60951456.jpg?width=800&height=800&quality=70" className='h-80 xl:h-100 rounded-4xl' alt="" />
                 </div>
-                <div className='flex items-center h-full'>
+                <div className='flex items-center h-full text-center xl:text-left'>
                   <div className='space-y-8'>
-                    <h3 className='text-6xl'>Hi , There!</h3>
+                    <h3 className='text-2xl xl:text-6xl mt-8 xl:mt-0'>Hi , There!</h3>
                     <p className="text-gray-300 text-base leading-relaxed">
                       I'm a Frontend Developer skilled in JavaScript, ReactJS, Next.js, Tailwind CSS, and Redux. I enjoy turning ideas into real, usable interfaces. My focus is on writing clean, responsive code that works well across devices and keeps users in mind.
                       <br /><br />
@@ -51,10 +51,10 @@ export default function About() {
             </div>
           </div>
 
-          <div className='grid grid-cols-[70%_auto] text-gray-300'>
-            <div className='space-y-5 '>
-              <h2 className='text-5xl'>My Carrer so far</h2>
-              <p className="text-lg mb-8 leading-relaxed break-words max-w-185">
+          <div className='grid lg:grid-cols-[70%_auto] text-gray-300 text-center xl:text-left'>
+            <div className='space-y-5'>
+              <h2 className='text-2xl xl:text-6xl xl:mt-8 xl:mt-0'>My Carrer so far</h2>
+              <p className=" mb-8 leading-relaxed break-words lg:max-w-185">
                 I started my web development journey with a strong interest in how websites work. I’ve learned HTML, CSS, JavaScript, and built responsive interfaces using React, Next.js, and Tailwind CSS.
                 Through live and practice projects,
                 <br /><br />
@@ -64,16 +64,15 @@ export default function About() {
 
             </div>
             <div className="h-full flex items-center text-white">
-              <div className="h-full flex items-center text-white">
-                <div className="flex flex-wrap gap-4 my-6">
+              <div className="h-full flex items-center text-white ">
+                <div className="flex flex-wrap gap-4 xl:my-6">
                   {Skills.map((item, index) => (
                     <div
                       key={index}
-                      className="relative group bg-gray-700 text-white px-4 py-2 rounded-md flex items-center gap-2 transition duration-300 hover:bg-[#FB512C]
-                         w-fit group-hover:w-48 overflow-hidden whitespace-nowrap" // Added width management classes
+                      className="relative group bg-gray-700 text-white px-2 py-1 xl:px-4 xl:py-2 rounded-md flex items-center gap-2 transition duration-300 hover:bg-[#FB512C]
+                         w-fit group-hover:w-48 overflow-hidden whitespace-nowrap" 
                     >
                       {item.icon && (
-                        // Icon container: initially zero width and transparent, expands and fades in on hover
                         <span className="w-0 opacity-0 group-hover:w-8 group-hover:opacity-100 transition-all duration-300 flex-shrink-0">
                           {item.icon}
                         </span>

@@ -22,7 +22,7 @@ export default function Iconslider() {
   const repeatedSkills = [...skills, ...skills]; // repeat to make it scroll infinitely
 
   return (
-   <div className='h-96 flex items-center'>
+   <div className='lg:h-96 h-64 flex items-center'>
      <div className="relative overflow-hidden border-y border-[#393A3D] text-white py-6 ">
       <div>
         <div className="absolute top-0 right-0 w-24 h-full z-10 bg-gradient-to-l from-black to-transparent pointer-events-none" />

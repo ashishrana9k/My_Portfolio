@@ -1,11 +1,12 @@
 "use client"
 import React from 'react';
 import { motion } from "framer-motion";
+import { Typewriter } from 'react-simple-typewriter';
 
 export default function Hero() {
   return (
     <div className="container mx-auto">
-      <div className="flex justify-center text-center h-[90vh] items-center">
+      <div className="flex justify-center text-center h-full xl:h-[82vh] items-center">
         <div>
           <div className="flex justify-center">
             <img
@@ -15,8 +16,8 @@ export default function Hero() {
             />
           </div>
           <div className="text-center space-y-5 mt-5">
-            <h1 className="text-4xl font-bold">
-              Hello, I'm Samantha Willian
+            <h1 className="text-xl font-bold">
+              Hello
               <motion.span
                 className="inline-block  text-3xl"
                 animate={{
@@ -30,9 +31,19 @@ export default function Hero() {
               >
                 👋
               </motion.span>
-
+              <span className='mr-2'>,</span>
+               <Typewriter
+                    words={['Frontend Developer', 'React Enthusiast', 'Problem Solver', 'ASHISH RANA']}
+                    loop={true}
+                    cursor
+                    cursorStyle='|'
+                    typeSpeed={80}
+                    deleteSpeed={50}
+                    delaySpeed={1500}
+                  />
+                 {/* , I'm samantha willian */}
             </h1>
-            <p className='text-6xl leading-normal'>
+            <p className='text-2xl md:text-4xl xl:text-6xl leading-normal'>
               Develope  Smooth, <br />
               User-First Web Experiences.
             </p>
@@ -50,7 +61,7 @@ export default function Hero() {
               <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 fill-current text-white rotate-[-45deg] group-hover:rotate-[0deg] trasition-transfer duration-150" viewBox="0 0 448 512"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" /></svg>
             </button>
 
-            <button className='cursor-pointer text-gray-600 hover:text-gray-400 trasition-transfer duration-200'>View Resume</button>
+            <button className='cursor-pointer text-gray-200 hover:text-gray-400 trasition-transfer duration-200 border  border-[#393A3D] hover:border-gray-400 px-3 rounded-xl'>View Resume</button>
           </div>
 
         </div>
