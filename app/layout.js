@@ -1,23 +1,5 @@
-import { Geist, Geist_Mono } from "next/font/google";
-import { Manrope } from "next/font/google";
 import "./globals.css";
-import Smoth from './component/Smoth'
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
-const manrope = Manrope({
-  variable: "--font-manrope",
-  subsets: ["latin"],
-  display: "swap",
-});
+import Smoth from './component/Smoth';
 
 export const metadata = {
   title: "Create Next App",
@@ -26,12 +8,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${manrope.variable}`}>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased font-sans`}
-      >
+    <html lang="en">
+      <body className="antialiased">
         <Smoth>
-        {children}
+          {children}
         </Smoth>
       </body>
     </html>

@@ -1,4 +1,5 @@
 import Image from "next/image"
+import ContactAnimation from "../component/ContactAnimation"
 // import { Input } from "@/components/ui/input"
 // import { Textarea } from "@/components/ui/textarea"
 // import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
@@ -6,49 +7,60 @@ import Image from "next/image"
 
 export default function Contact() {
     return (
-        <div className="container">
-            <div className="w-full px-4">
-                <div className="relative z-10 w-full shadowx-hover  rounded-3xl p-4 xl:p-8 md:p-12 shadow-lg border border-[#393A3D]">
-                    <div className="text-center mb-10">
-                        <div className="text-center space-y-2 mb-6">
-                            <h2 className="text-3xl font-bold">Contact Me</h2>
-                            <p className="text-gray-500 text-base">Feel free to reach out for collaborations, projects, or just to say hi!</p>
-                        </div>
+        <div className="relative bg-[url('https://a-static.besthdwallpaper.com/gray-map-illustration-world-map-wallpaper-2880x1800-81653_8.jpg')] bg-cover bg-center py-20">
+            // <div className="absolute inset-0 bg-black/95 z-10"></div>
+            <div className="container relative z-20 ">
+                <div className="text-center pb-12 space-y-6">
+                    <h2 className="text-5xl text-[#22d3ee] font-bold">Get In Touch</h2>
+                </div>
+                <div className="grid md:grid-cols-2 gap-32">
+                    <div>
+                        <ContactAnimation />
                     </div>
-                    <form className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                        <input
-                            type="text"
-                            placeholder="Name *"
-                            required
-                            className="bg-[#1a1a1a] border-none text-white placeholder:text-gray-500 p-4 rounded-lg focus:ring-2 focus:ring-[#ff6b00]"
-                        />
-                        <input
-                            type="email"
-                            required
-                            placeholder="Email"
-                            className="bg-[#1a1a1a] border-none text-white placeholder:text-gray-500 p-4 rounded-lg focus:ring-2 focus:ring-[#ff6b00]"
-                        />
-                        <input
-                            type="tel"
-                            required
-                            placeholder="Phone number *"
-                            className="md:col-span-2 bg-[#1a1a1a] border-none text-white placeholder:text-gray-500 p-4 rounded-lg focus:ring-2 focus:ring-[#ff6b00]"
-                        />
-                        <textarea
-                            placeholder="Write message"
-                            rows={5}
-                            className="md:col-span-2 bg-[#1a1a1a] border-none text-white placeholder:text-gray-500 p-4 rounded-lg focus:ring-2 focus:ring-[#ff6b00] resize-none"
-                        />
-                        <button
-                            type="submit"
-                            className="md:col-span-2 button-bg cursor-pointer  text-white font-semibold py-3 px-6 rounded-lg flex items-center justify-center gap-2 transition-colors"
-                        >
-                            Submit
-                        </button>
-                    </form>
-
+                    <div>
+                        <h2 className="text-2xl font-light mb-8 text-gray-300">Get In Touch</h2>
+                        <form className="space-y-6">
+                            <input
+                                type="text"
+                                placeholder="Your Name"
+                                className="w-full py-2 px-2 rounded-xl text-sm outline-none placeholder-gray-400 bg-transparent text-white border border-[#393A3D] focus:bg-gray-700 focus:border-[#52cfe5] transition"
+                            />
+                            <input
+                                type="email"
+                                placeholder="Your Email"
+                                className="w-full py-2 px-2 rounded-xl text-    sm outline-none placeholder-gray-400 bg-transparent text-white border border-[#393A3D] focus:bg-gray-700 focus:border-[#52cfe5] transition"
+                            />
+                            <input
+                                type="tel"
+                                placeholder="Your Phone"
+                                className="w-full py-2 px-2 rounded-xl text-sm outline-none placeholder-gray-400 bg-transparent text-white border border-[#393A3D] focus:bg-gray-700 focus:border-[#52cfe5] transition"
+                            />
+                            <textarea
+                                placeholder="Write a Message"
+                                rows={8}
+                                className="w-full py-2 px-2 rounded-xl text-sm outline-none placeholder-gray-400 bg-transparent text-white border border-[#393A3D] focus:bg-gray-700 focus:border-[#52cfe5] transition"
+                            />
+                            <button
+                                type="submit"
+                                className="relative overflow-hidden px-6 py-3 rounded-lg text-white font-medium bg-[#52cfe5] transition-colors duration-300 group"
+                            >
+                                <span className="relative z-10">
+                                    Submit
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 inline mx-2 fill-current text-white rotate-[-45deg] group-hover:rotate-0 transition-transform duration-150" viewBox="0 0 448 512">
+                                        <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224H32c-17.7 0-32 14.3-32 32s14.3 32 32 32h306.7L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                                    </svg>
+                                </span>
+                                <span className="absolute top-0 left-0 w-full h-full -translate-x-full bg-[#2ea2b8] transition-all duration-500 ease-in-out group-hover:translate-x-0"></span>
+                            </button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
     )
 }
+
+
+// used css in css file
+// created file
+// import this file only

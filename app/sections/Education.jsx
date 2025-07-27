@@ -31,9 +31,7 @@ export default function Education() {
                             <p className="text-sm mt-2">Currently pursuing a diploma focused on React, Tailwind CSS, GitHub, API integration, and deployment.</p>
                         </div>
                     </div>
-
                 </div>
-
             </div>
         </>
     )
