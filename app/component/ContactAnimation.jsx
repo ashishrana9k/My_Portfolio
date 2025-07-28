@@ -5,7 +5,7 @@ import React from "react";
 
 export default function ContactAnimation() {
   return (
-    <div className="flex items-center justify-center h-[50vh] xl:min-h-screen ">
+    <div className="flex items-center justify-center  ">
       <div className="relative w-[120px] h-[120px] mt-32 transform-style-preserve-3d rotate-x-[-33.5deg] rotate-y-[45deg] translate-x-[40px]">
         <div className="animate-[hoverY_2s_ease-in-out_infinite_alternate] transform-style-preserve-3d">
           <div className="absolute w-[120px] h-[120px] animate-[flipY_5.2s_infinite]">

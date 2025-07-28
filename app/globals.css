@@ -1,9 +1,16 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+ 
 @import "tailwindcss";
 
+
+@font-face {
+  font-family: 'Satoshi-Regular';
+  src: url('/Fonts/Satoshi-Regular.woff') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Satoshi-Regular', sans-serif;
 }
 
 :root {
@@ -15,16 +22,12 @@ html {
   scroll-behavior: auto;
 }
 
-body {
-  /* font-family: Manrope; */
-}
-
-@theme inline {
+/* @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
+} */
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -92,18 +95,8 @@ body {
     box-shadow: 0 0 40px rgba(255, 165, 0, 0.6);
   }
 
-  25% {
-    transform: translateY(-10px) rotate(3deg);
-    box-shadow: 0 0 60px rgba(255, 140, 0, 0.8);
-  }
-
   50% {
-    transform: translateY(0px) rotate(0deg);
-    box-shadow: 0 0 50px rgba(255, 165, 0, 0.7);
-  }
-
-  75% {
-    transform: translateY(10px) rotate(-3deg);
+    transform: translateY(10px) rotate(3deg);
     box-shadow: 0 0 60px rgba(255, 140, 0, 0.8);
   }
 
@@ -163,5 +156,4 @@ body {
     linear-gradient(180deg, rgba(0,0,0,0) 10%, rgba(109,109,109,0.7) 50%, rgba(0,0,0,0)),
     linear-gradient(270deg, rgba(0,0,0,0) 10%, rgba(109,109,109,0.7) 50%, rgba(0,0,0,0));
 }
-
 

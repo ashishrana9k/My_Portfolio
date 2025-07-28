@@ -7,7 +7,6 @@ import { RiReactjsLine } from "react-icons/ri";
 import { FaHtml5, FaCss3Alt, FaGithub, FaJs, FaNodeJs } from "react-icons/fa";
 import { SiTailwindcss, SiNextdotjs, SiApachenetbeanside, SiFramer } from "react-icons/si";
 
-// ScrollFadeIn component (you can reuse this from About.jsx)
 const ScrollFadeIn = ({ children, delay = 0 }) => {
   const controls = useAnimation();
   const [ref, inView] = useInView({ threshold: 0.2 });
@@ -50,7 +49,7 @@ export default function Iconsliderheader() {
 
   return (
     <ScrollFadeIn delay={0.2}>
-      <div className='xl:h-32 h- flex items-center mt-8 md:mt-12'>
+      <div className='xl:h-32 h- flex items-center mt-8 md:mt-'>
         <div className="relative overflow-hidden  border-y-[0.1px] border-[#393A3D] text-white py-3">
           <div>
             <motion.div
