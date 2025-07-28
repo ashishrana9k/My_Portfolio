@@ -21,7 +21,7 @@ export default function Footer() {
                         <div className="flex items-center space-x-2">
                             <span className="text-4xl font-semibold">Pagedone</span>
                         </div>
-                        <ul className="text-lg space-y-4 text-">
+                        <ul className="text-lg space-y-2 text-">
                             <li className="flex items-center space-x-2">
                                 <IoIosMail className="text-2xl" />
                                 <span>ashishrana30012000@gmail.com</span>
@@ -53,18 +53,18 @@ export default function Footer() {
 
                     <div className="">
                         <h3 className="text-2xl mb-6">Pages</h3>
-                        <ul className=' text-sm space-y-4 text-base text-[#ededed]'>
+                        <ul className=' text-sm space-y-2 text-base text-[#ededed]'>
                             <li className="cursor-pointer hover:text-gray-300 relative text-base ">
                                 <a href="">  Home</a>
                             </li>
                             <li className="cursor-pointer hover:text-gray-300 relative text-base ">
-                                <a href="/about">About</a>
+                                  <a href="#about">About</a>
                             </li>
                             <li className="cursor-pointer hover:text-gray-300 relative text-base ">
-                                <a href="#projects">Work</a>
+                               <a href="#projects">Work</a>
                             </li>
                             <li className="cursor-pointer hover:text-gray-300 relative text-base ">
-                                Skills
+                              <a href="#about">Skills</a> 
                             </li>
                             <li className="cursor-pointer hover:text-gray-300 relative text-base ">
                                 Contact
@@ -74,7 +74,7 @@ export default function Footer() {
 
                     <div>
                         <h3 className="text-2xl mb-6">Our Services</h3>
-                        <ul className="text-sm space-y-4 text-base text-[#ededed]">
+                        <ul className="text-sm space-y-2 text-base text-[#ededed]">
                             <li className="cursor-pointer hover:text-gray-300 relative text-base "><a href="#" className="hover:underline">Figma UI System</a></li>
                             <li className="cursor-pointer hover:text-gray-300 relative text-base "><a href="#" className="hover:underline">Icons Assets</a></li>
                             <li className="cursor-pointer hover:text-gray-300 relative text-base "><a href="#" className="hover:underline">Responsive Blocks</a></li>
@@ -83,7 +83,7 @@ export default function Footer() {
 
                     <div>
                         <h3 className="text-2xl mb-6">Resources</h3>
-                        <ul className=" text-sm space-y-4">
+                        <ul className=" text-sm space-y-2">
                             <li className="cursor-pointer hover:text-gray-300 relative text-base ">
                                 <a href="#" className="hover:underline">FAQs</a>
                             </li>
