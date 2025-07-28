@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 @import "tailwindcss";
 
@@ -162,3 +163,5 @@ body {
     linear-gradient(180deg, rgba(0,0,0,0) 10%, rgba(109,109,109,0.7) 50%, rgba(0,0,0,0)),
     linear-gradient(270deg, rgba(0,0,0,0) 10%, rgba(109,109,109,0.7) 50%, rgba(0,0,0,0));
 }
+
+

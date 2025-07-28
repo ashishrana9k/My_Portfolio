@@ -1,7 +1,9 @@
 'use client'
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { motion, useAnimation } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
+import { RiMenu5Fill } from "react-icons/ri";
+
 
 export default function Navbar() {
   const controls = useAnimation()
@@ -11,7 +13,13 @@ export default function Navbar() {
     if (inView) {
       controls.start({ opacity: 1, y: 0 })
     }
-  }, [inView, controls])
+  }, [inView, controls]);
+
+ const [menu , setMenu] = useState(true);
+
+  function handlemanu(){
+      setMenu(prev => !prev);
+  }
 
   return (
     <motion.div
@@ -19,7 +27,7 @@ export default function Navbar() {
       initial={{ opacity: 0, y: 50 }}
       animate={controls}
       transition={{ duration: 0.6 }}>
-      <div className='bg-black/20'>
+      <div className='bg-black/20 '>
         <div className='container'>
           <div className='hidden xl:block mx-4 lg:mx-0'>
             <div className='flex justify-between items-center py-5 rounded-xl border-b-0 px-4 xl:px-0'>
@@ -30,7 +38,7 @@ export default function Navbar() {
               <div>
                 <ul className='xl:flex gap-8'>
                   <li className="cursor-pointer hover:text-gray-300 relative text-lg transition-all duration-300 ease-in-out group">
-                  <a href="">  Home</a>
+                    <a href="">  Home</a>
                     <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-[#fb512c] transition-all duration-500 group-hover:w-full"></span>
                   </li>
                   <li className="cursor-pointer hover:text-gray-300 relative text-lg transition-all duration-300 ease-in-out group">
@@ -65,6 +73,14 @@ export default function Navbar() {
               </div>
             </div>
           </div>
+
+          <div className="bg-black/20 h-20 flex justify-between items-center xl:hidden text-4xl mx-4">
+            <h2>Portfolio</h2>
+            <div className='' onClick={handlemanu}>
+              { menu ? <RiMenu5Fill /> : <span className='text-6xl'>&times;</span> }
+            </div>
+          </div>
+
         </div>
       </div>
     </motion.div>

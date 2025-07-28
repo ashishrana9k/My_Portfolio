@@ -30,17 +30,17 @@ export default function Hero() {
   };
 
   return (
-    <div className=" mx-auto  lg:px-8">
+    <div className="mx-auto lg:px-8">
       <div className="flex justify-center items-center text-center">
-        <div className="w-full">
+       <div className="w-full space-y-8 md:space-y-12   mt-">    {/* banner text top padding */}
 
         <div className="container">
             <ScrollFadeIn delay={0.1}>
-            <div className="space-y-5 sm:mt-100 z-9 mt-70 ">
+            <div className=" sm:mt-100 z-9 mt-70 ">
               <div className="text-4xl sm:text-5xl md:text-6xl xl:text-8xl font-bold">
                 <h1 className=''>ASHISH RANA</h1>
               </div>
-              <p className="text-xl sm:text-3xl md:text-3xl px-2">
+              <p className="text-xl sm:text-3xl md:text-2xl px-2 mt-2">
                 Software Engineer, Front end & Responsive Designs.
               </p>
             </div>
@@ -73,6 +73,7 @@ export default function Hero() {
             </div>
           </ScrollFadeIn>
         </div>
+
         </div>
       </div>
     </div>

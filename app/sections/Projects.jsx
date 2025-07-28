@@ -73,7 +73,7 @@ export default function Projects() {
                                             </button>
                                         </a>
                                     </div>
-                                    <p className=' '>This project is built with Next.js, Tailwind CSS, and TypeScript, focused on desktop view only. It uses @mui/material for consistent UI components and clean design. Tailwind makes styling efficient, while TypeScript adds type safety.</p>
+                                    <p className='chnge'>Thiswejflj;adfj;aj; project is built with Next.js, Tailwind CSS, and TypeScript, focused on desktop view only. It uses @mui/material for consistent UI components and clean design. Tailwind makes styling efficient, while TypeScript adds type safety.</p>
                                 </div>
                             </div>
                         </div>
@@ -91,9 +91,9 @@ export default function Projects() {
                                 <div className='px-3 py-6 space-y-6'>
                                     <div>
                                         <a href="https://admin-panel-mu-olive.vercel.app/">
-                                            <button className='button-bg px-3 texrt-white py-2 rounded-lg flex items-center gap-2 group'>
+                                            <button className='button-bg px-3  py-2 rounded-lg flex items-center gap-2 group'>
                                                 <span>Admin Panel</span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 fill-current text-white rotate-[-45deg] group-hover:rotate-[0deg] trasition-transfer duration-150" viewBox="0 0 448 512"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" /></svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 fill-current text rotate-[-45deg] group-hover:rotate-[0deg] trasition-transfer duration-150" viewBox="0 0 448 512"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" /></svg>
                                             </button>
                                         </a>
                                     </div>

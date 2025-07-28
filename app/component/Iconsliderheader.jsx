@@ -50,7 +50,7 @@ export default function Iconsliderheader() {
 
   return (
     <ScrollFadeIn delay={0.2}>
-      <div className='xl:h-32 h- flex items-center'>
+      <div className='xl:h-32 h- flex items-center mt-8 md:mt-12'>
         <div className="relative overflow-hidden  border-y-[0.1px] border-[#393A3D] text-white py-3">
           <div>
             <motion.div
