@@ -17,8 +17,8 @@ export default function Projects() {
         <>
             <div className="container">
                 <div className='xl:pb-28 px-4 mt-8' id='projects'>
-                    <div className='text-center pb-12 space-y-6'>
-                        <h2 className='text-5xl'>Projects</h2>
+                    <div className='text-center pb-12'>
+                        <h2 className='text-4xl :text-5xl'>Projects</h2>
                         <p className=" mt-2">
                             Here are some of the projects I've built using React, Next.js, and Tailwind CSS.</p>
                     </div>

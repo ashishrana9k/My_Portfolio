@@ -4,42 +4,15 @@ import { Calendar } from "lucide-react";
 
 export default function About0() {
     return (
-        <div className=" container mx-auto px-4 py-20 " id='about'>
+        <div className=" container mx-auto px-4 py-8 xl:py-20 " id='about'>
             <div className="xl:py-8 text-center space-y-4">
-                <h2 className="text-5xl font-bold text-[#22d3ee]">About Me</h2>
+                <h2 className="text-4xl md:text-5xl  font-bold text-[#22d3ee]">About Me</h2>
             </div>
             <div className="py-4">
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-0  md:gap-12">
                     <div>
                         <h2 className="text-2xl font-light text-gray-300 mb-8 text-center md:text-left">Education</h2>
                         <div className="space-y-6">
-                            <div className=" p-6 rounded-lg shadowx-hover border border-[#393A3D]">
-                                <div className="flex items-center text-gray-400 text-sm mb-3">
-                                    <Calendar className="w-4 h-4 mr-2" />
-                                    2019 – 2021
-                                </div>
-                                <h3 className="text-lg font-medium mb-3">
-                                    Senior Secondary Education (12th)
-                                </h3>
-                                <p className="mb-4">
-                                    Completed 12th with a focus on Arts subjects, building a foundation in history, political science, and language.
-                                </p>
-                                <p className="text-gray-500 text-sm">HP Board of School Education</p>
-                            </div>
-
-                            <div className="shadowx-hover border border-[#393A3D] p-6 rounded-lg">
-                                <div className="flex items-center text-gray-400 text-sm mb-3">
-                                    <Calendar className="w-4 h-4 mr-2" />
-                                    2021 – 2024
-                                </div>
-                                <h3 className=" text-lg font-medium mb-3">
-                                    Bachelor of Arts
-                                </h3>
-                                <p className=" text-sm mb-4">
-                                    Studied History, Political Science, and English. Developed strong academic and research skills during undergraduate studies.
-                                </p>
-                                <p className="text-gray-500 text-sm">Govt. College Shahpur (HPU)</p>
-                            </div>
 
                             <div className="shadowx-hover border border-[#393A3D] p-6 rounded-lg">
                                 <div className="flex items-center text-gray-400 text-sm mb-3">
@@ -54,11 +27,40 @@ export default function About0() {
                                 </p>
                                 <p className="text-gray-400 ">Self-Learning from Online Resources</p>
                             </div>
+                            <div className="shadowx-hover border border-[#393A3D] p-6 rounded-lg">
+                                <div className="flex items-center text-gray-400 text-sm mb-3">
+                                    <Calendar className="w-4 h-4 mr-2" />
+                                    2021 – 2024
+                                </div>
+                                <h3 className=" text-lg font-medium mb-3">
+                                    Bachelor of Arts
+                                </h3>
+                                <p className=" text-sm mb-4">
+                                    Studied History, Political Science, and English. Developed strong academic and research skills during undergraduate studies.
+                                </p>
+                                <p className="text-gray-500 text-sm">Govt. College Shahpur (HPU)</p>
+                            </div>
+
+
+                            <div className=" p-6 rounded-lg shadowx-hover border border-[#393A3D]">
+                                <div className="flex items-center text-gray-400 text-sm mb-3">
+                                    <Calendar className="w-4 h-4 mr-2" />
+                                    2019 – 2021
+                                </div>
+                                <h3 className="text-lg font-medium mb-3">
+                                    Senior Secondary Education (12th)
+                                </h3>
+                                <p className="mb-4">
+                                    Completed 12th with a focus on Arts subjects, building a foundation in history, political science, and language.
+                                </p>
+                                <p className="text-gray-500 text-sm">HP Board of School Education</p>
+                            </div>
+
                         </div>
                     </div>
 
                     <div>
-                        <h2 className="text-2xl font-light mb-8 md:text-left text-center">Skills</h2>
+                        <h2 className="text-2xl font-light md:text-left text-center mt-12 mb-8 md:mt-0">Skills</h2>
                         <div className="space-y-6">
                             <div className="shadowx-hover border border-[#393A3D] p-6 rounded-lg">
                                 <h3 className=" text-lg font-medium mb-3">Front-End Skills</h3>

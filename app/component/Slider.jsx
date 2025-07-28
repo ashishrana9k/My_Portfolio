@@ -1,11 +1,9 @@
 'use client'
-
 import 'keen-slider/keen-slider.min.css'
 import { useKeenSlider } from 'keen-slider/react'
 import { useState } from 'react'
 import { FaChevronRight, FaChevronLeft } from "react-icons/fa"
 
-// Slide Data
 const slidesData = [
   { video: "/Dashboard.mp4", title: "Admin Panel", link: "https://admin-panel-mu-olive.vercel.app/" },
   { video: "/video2.mp4", title: "Landing Page", link: "https://example.com/landing" },
@@ -13,7 +11,6 @@ const slidesData = [
   { video: "/video4.mp4", title: "Demo", link: "https://example.com/demo" },
 ]
 
-// Slide Component
 function SlideContent({ video, title, link }) {
   return (
     <div className="">
@@ -64,7 +61,7 @@ export default function KeenSliderComponent() {
           spacing: 15,
         },
       },
-      '(min-width: 640px)': {
+      '(min-width: 768px)': {
         slides: {
           perView: 3,
           spacing: 10,
@@ -84,16 +81,15 @@ export default function KeenSliderComponent() {
   })
 
   return (
-    <div className="container mx-auto px-4 py-20">
+    <div className="container mx-auto px-4 py-8 xl:py-20">
       <div className='text-center pb-12 space-y-6'>
-        <h2 className='text-5xl text-[#22d3ee]'>Projects</h2>
+        <h2 className='text-4xl xl:text-5xl text-[#22d3ee] font-bold'>Projects</h2>
         <p className=" mt-2">
           Here are some of the projects I've built using React, Next.js, and Tailwind CSS.
         </p>
       </div>
 
       <div className="flex items-center gap-2">
-        {/* Left Arrow */}
         {loaded && instanceRef.current && (
           <button
             onClick={() => instanceRef.current?.prev()}
@@ -103,7 +99,6 @@ export default function KeenSliderComponent() {
           </button>
         )}
 
-        {/* Slider */}
         <div ref={sliderRef} className="keen-slider flex-1">
           {slidesData.map((item, index) => (
             <div key={index} className="keen-slider__slide">
@@ -112,7 +107,6 @@ export default function KeenSliderComponent() {
           ))}
         </div>
 
-        {/* Right Arrow */}
         {loaded && instanceRef.current && (
           <button
             onClick={() => instanceRef.current?.next()}
@@ -123,16 +117,14 @@ export default function KeenSliderComponent() {
         )}
       </div>
 
-      {/* Pagination Dots */}
       {loaded && instanceRef.current && (
         <div className="flex justify-center mt-4 gap-2 ">
           {[...Array(instanceRef.current.track.details.slides.length).keys()].map((idx) => (
             <button
               key={idx}
               onClick={() => instanceRef.current?.moveToIdx(idx)}
-              className={`md:w-3 md:h-3 w-2 h-2  transition-colors duration-300 rounded-xl ${
-                currentSlide === idx ? 'bg-[#52cfe5]' : 'bg-gray-300'
-              }`}
+              className={`md:w-3 md:h-3 w-2 h-2  transition-colors duration-300 rounded-xl ${currentSlide === idx ? 'bg-[#52cfe5]' : 'bg-gray-300'
+                }`}
             ></button>
           ))}
         </div>

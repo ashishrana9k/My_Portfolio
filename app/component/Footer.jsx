@@ -3,9 +3,9 @@
 
 export default function Footer() {
     return (
-        <footer className=" container py-8">
-            <div className=" w-full p-4 py-6 lg:py-8">
-                {/* <div className="md:flex md:justify-between"> */}
+        <footer className="">
+           <div className="container">
+             <div className=" w-full p-4 py-6 lg:py-8">
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-8 md:mt-0 w-full">
                     <div className="mb-6 md:mb-0">
                         <a href="/" className="flex items-center">
@@ -16,8 +16,7 @@ export default function Footer() {
                         </a>
                     </div>
 
-                    {/* Grid section */}
-                        {/* Resources */}
+                    
                         <div>
                             <h2 className="mb-6 text-sm font-semibold  uppercase dark:text-white">
                                 page
@@ -35,7 +34,7 @@ export default function Footer() {
                             </ul>
                         </div>
 
-                        {/* Follow Me */}
+                
                         <div>
                             <h2 className="mb-6 text-sm font-semibold  uppercase dark:text-white">
                                 Follow Me
@@ -59,8 +58,8 @@ export default function Footer() {
                                 Contact
                             </h2>
                             <ul className="text-gray-500 dark:text-gray-400 font-medium space-y-2">
-                                <li>
-                                    <a href="mailto:youremail@example.com" className="hover:underline">ashishrana30012000@gmail.com</a>
+                                <li className="hover:underline text-wrap">
+                                     ashishna3001il.com
                                 </li>
                                 <li>
                                     <a href="#" className="hover:underline">+91 75910 86467</a>
@@ -72,7 +71,6 @@ export default function Footer() {
 
                 <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
 
-                {/* Bottom bar */}
                 <div className="sm:flex sm:items-center sm:justify-between">
                     <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
                         © 2025 <a href="/" className="hover:underline">YourName</a>. All Rights Reserved.
@@ -98,7 +96,7 @@ export default function Footer() {
                         </a>
                     </div>
                 </div>
-            {/* </div> */}
+           </div>
         </footer>
     );
 }

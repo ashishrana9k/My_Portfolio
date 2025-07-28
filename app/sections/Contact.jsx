@@ -9,16 +9,16 @@ export default function Contact() {
     return (
         <div className="relative bg-[url('https://a-static.besthdwallpaper.com/gray-map-illustration-world-map-wallpaper-2880x1800-81653_8.jpg')] bg-cover bg-center md:py-20 px-4">
              <div className="absolute inset-0 bg-black/95 z-10"></div>
-            <div className="container relative z-20 ">
+            <div className="container relative z-20 py-8">
                 <div className="text-center pb-12 space-y-6">
-                    <h2 className="text-5xl text-[#22d3ee] font-bold">Get In Touch</h2>
+                    <h2 className=" text-4xl xl:text-5xl text-[#22d3ee] font-bold">Get In Touch</h2>
                 </div>
                 <div className="grid md:grid-cols-2 gap-32">
                     <div>
                         <ContactAnimation />
                     </div>
                     <div>
-                        <h2 className="text-2xl font-light mb-8 text-gray-300">Get In Touch</h2>
+                        <h2 className="text-2xl font-light mb-8 text-gray-300 text-center md:text-left">Get In Touch</h2>
                         <form className="space-y-6">
                             <input
                                 type="text"

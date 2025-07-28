@@ -32,11 +32,11 @@ export default function Hero() {
   return (
     <div className="mx-auto lg:px-8">
       <div className="flex justify-center items-center text-center">
-       <div className="w-full space-y-8 md:space-y-12   mt-">    {/* banner text top padding */}
+       <div className="w-full space-y-8 md:space-y-12">    {/* banner text top padding */}
 
         <div className="container">
             <ScrollFadeIn delay={0.1}>
-            <div className=" sm:mt-100 z-9 mt-70 ">
+            <div className=" sm:mt-100 z-9 mt-50 ">
               <div className="text-4xl sm:text-5xl md:text-6xl xl:text-8xl font-bold">
                 <h1 className=''>ASHISH RANA</h1>
               </div>
