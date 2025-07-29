@@ -32,12 +32,11 @@ export default function Hero() {
 
 
   return (
-   <div className="container">
-     <div className="mx-auto lg:px-8">
-      <div className="flex justify-center items-center text-center">
-        <div className="w-full space-y-8 md:space-y-12">
+    <div className="container">
+      <div className="mx-auto lg:px-8 mt-45 lg:mt-12">
+        <div className="flex justify-center items-center text-center">
+          <div className="w-full space-y-4 md:space-y-12">
 
-          {/* <div className="container"> */}
             <ScrollFadeIn delay={0.2}>
               <div className=" sm:mt-80 z-9 ">
                 <div className="text-4xl sm:text-5xl md:text-6xl xl:text-8xl font-bold">
@@ -48,12 +47,12 @@ export default function Hero() {
                 </p>
               </div>
             </ScrollFadeIn>
-          {/* </div> */}
+            {/* </div> */}
 
-          {/* <div className="container"> */}
+            {/* <div className="container"> */}
             <ScrollFadeIn delay={0.2}>
-              <div className="flex  justify-center items-center gap-6 mt-20">
-                <button className="relative overflow-hidden px-4 py-3 xl:px-8 xl:py-4 rounded-lg text-white font-medium bg-[#52cfe5] transition-colors duration-300 group">
+              <div className="flex  justify-center items-center gap-6 my-12 lg:mt-20">
+                <button className="cursor-pointer relative overflow-hidden px-4 py-3 xl:px-8 xl:py-4 rounded-lg text-white font-medium bg-[#52cfe5] transition-colors duration-300 group">
                   <span className="relative z-10 flex items-center justify-center">
                     Let's Talk
                     <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 inline mx-2 fill-current text-white rotate-[-45deg] group-hover:rotate-[0deg] transition-transform duration-150" viewBox="0 0 448 512">
@@ -63,22 +62,20 @@ export default function Hero() {
                   <span className="absolute top-0 left-0 w-full h-full -translate-x-full bg-[#2ea2b8] transition-all duration-500 ease-in-out group-hover:translate-x-0"></span>
                 </button>
 
-                <button className="relative overflow-hidden px-4 py-3 xl:px-10 xl:py-4 rounded-lg text-white font-medium border border-gray-700 hover:border-gray-500 text-gray-700 hover:text-gray-100 transition-colors duration-300 group">
+                <button className="cursor-pointer relative overflow-hidden px-4 py-3 xl:px-10 xl:py-4 rounded-lg text-white font-medium border border-gray-700 hover:border-gray-500 text-gray-700 hover:text-gray-100 transition-colors duration-300 group">
                   <span className="relative z-10 ">Resume</span>
                   <span className="absolute top-0 left-0  h-full"></span>
                 </button>
 
               </div>
             </ScrollFadeIn>
-          {/* </div> */}
-
-          <div className="">
-            <Iconsliderheader />
+            {/* </div> */}
+            <div className="">
+              <Iconsliderheader />
+            </div>
           </div>
-
         </div>
       </div>
     </div>
-   </div>
   );
 }

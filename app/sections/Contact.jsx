@@ -46,7 +46,7 @@ export default function Contact() {
                         <ContactAnimation />
                     </div>
                     <ScrollFadeIn delay={0.2}>
-                        <div>
+                        <div className="">
                             <h2 className="text-2xl font-light mb-8 text-gray-300 text-center md:text-left">Get In Touch</h2>
                             <form className="space-y-6">
                                 <input
@@ -73,7 +73,7 @@ export default function Contact() {
                                     type="submit"
                                     className="relative overflow-hidden px-6 py-3 rounded-lg text-white font-medium bg-[#52cfe5] transition-colors duration-300 group"
                                 >
-                                    <span className="relative z-10">
+                                    <span className="relative z-10 px-6 py-4 ">
                                         Submit
                                         <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 inline mx-2 fill-current text-white rotate-[-45deg] group-hover:rotate-0 transition-transform duration-150" viewBox="0 0 448 512">
                                             <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224H32c-17.7 0-32 14.3-32 32s14.3 32 32 32h306.7L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />

@@ -120,7 +120,7 @@ export default function About0() {
                                             ].map((skill, idx) => (
                                                 <div
                                                     key={idx}
-                                                    className="group relative px-4 py-2 bg-gray-700 text-white rounded-full cursor-pointer transition duration-300 hover:bg-gray-600 flex items-center gap-2"
+                                                    className="group relative px-4 py-2 bg-gray-700  rounded-full cursor-pointer transition duration-300 hover:bg-gray-600 flex items-center gap-2"
                                                 >
                                                     {skill.icon}
                                                     <span>{skill.name}</span>

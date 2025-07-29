@@ -47,17 +47,18 @@ export default function Navbar() {
 
 
   return (
-
-    <motion.div
-      ref={ref}
-      initial={{ opacity: 0, y: 50 }}
-      animate={controls}
-      transition={{ duration: 0.6 }}>
-      <ScrollFadeIn delay={0.2}>
-        <div className='bg-black/20 '>
+    // <motion.div
+    //   ref={ref}
+    //   initial={{ opacity: 0, y: 50 }}
+    //   animate={controls}
+    //   transition={{ duration: 0.6 }}
+    // >
+      // <ScrollFadeIn delay={0.2}>
+        <div className='bg-black/20'>
           <div className='container'>
-            <div className='hidden xl:block mx-4 lg:mx-0'>
-              <div className='flex justify-between items-center py-5 rounded-xl border-b-0 px-4 xl:px-0'>
+            {/* Desktop Navbar */}
+            <div className='hidden xl:block px-4 lg:mx-0'>
+              <div className='flex justify-between items-center py-3 rounded-xl border-b-0 px-4 xl:px-0'>
                 <div>
                   <h1 className='text-4xl text-gray-300'>Portfolio</h1>
                 </div>
@@ -65,30 +66,30 @@ export default function Navbar() {
                 <div>
                   <ul className='xl:flex gap-8'>
                     <li className="cursor-pointer hover:text-gray-300 relative text-lg transition-all duration-300 ease-in-out group">
-                      <a href="">  Home</a>
-                      <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-[#fb512c] transition-all duration-500 group-hover:w-full"></span>
+                      <a href="#home">Home</a>
+                      <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-[#52cfe5] transition-all duration-500 group-hover:w-full"></span>
                     </li>
                     <li className="cursor-pointer hover:text-gray-300 relative text-lg transition-all duration-300 ease-in-out group">
                       <a href="#about">About</a>
-                      <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-[#fb512c] transition-all duration-500 group-hover:w-full"></span>
+                      <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-[#52cfe5] transition-all duration-500 group-hover:w-full"></span>
                     </li>
                     <li className="cursor-pointer hover:text-gray-300 relative text-lg transition-all duration-300 ease-in-out group">
                       <a href="#projects">Work</a>
-                      <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-[#fb512c] transition-all duration-500 group-hover:w-full"></span>
+                      <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-[#52cfe5] transition-all duration-500 group-hover:w-full"></span>
                     </li>
                     <li className="cursor-pointer hover:text-gray-300 relative text-lg transition-all duration-300 ease-in-out group">
-                     <a href="#about">Skills</a> 
-                      <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-[#fb512c] transition-all duration-500 group-hover:w-full"></span>
+                      <a href="#skills">Skills</a>
+                      <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-[#52cfe5] transition-all duration-500 group-hover:w-full"></span>
                     </li>
                     <li className="cursor-pointer hover:text-gray-300 relative text-lg transition-all duration-300 ease-in-out group">
-                      <a href="#about">Skills</a> 
-                      <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-[#fb512c] transition-all duration-500 group-hover:w-full"></span>
+                      <a href="#contact">Contact</a>
+                      <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-[#52cfe5] transition-all duration-500 group-hover:w-full"></span>
                     </li>
                   </ul>
                 </div>
 
                 <div>
-                  <button className="relative overflow-hidden px-6 py-3 rounded-lg text-white font-medium bg-[#52cfe5] transition-colors duration-300 group">
+                  <button className="cursor-pointer relative overflow-hidden px-6 py-3 rounded-lg text-white font-medium bg-[#52cfe5] transition-colors duration-300 group">
                     <span className="relative z-10">
                       Let's Talk
                       <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 inline mx-2 fill-current text-white rotate-[-45deg] group-hover:rotate-[0deg] transition-transform duration-150" viewBox="0 0 448 512">
@@ -101,16 +102,30 @@ export default function Navbar() {
               </div>
             </div>
 
+            {/* Mobile Navbar */}
             <div className="bg-black/20 h-20 flex justify-between items-center xl:hidden text-4xl mx-4">
-              <h2>Portfolio</h2>
-              <div className='' onClick={handlemanu}>
+              <h2 className="text-white">Portfolio</h2>
+              <div onClick={handlemanu}>
                 {menu ? <RiMenu5Fill /> : <span className='text-6xl'>&times;</span>}
               </div>
             </div>
 
+            {/* Mobile Menu */}
+            <div
+              className={`xl:hidden absolute top-20 left-0 w-full bg-black/80 text-center text-white px-6 py-8 space-y-6 z-50 transition-all duration-300 ${
+                menu ? 'hidden' : 'block'
+              }`}
+            >
+              <a href="#home" className="block text-lg hover:text-[#52cfe5]">Home</a>
+              <a href="#about" className="block text-lg hover:text-[#52cfe5]">About</a>
+              <a href="#projects" className="block text-lg hover:text-[#52cfe5]">Work</a>
+              <a href="#skills" className="block text-lg hover:text-[#52cfe5]">Skills</a>
+              <a href="#contact" className="block text-lg hover:text-[#52cfe5]">Contact</a>
+            </div>
+
           </div>
         </div>
-      </ScrollFadeIn>
-    </motion.div>
+      // {/* </ScrollFadeIn> */}
+    // </motion.div>
   )
 }
