@@ -47,7 +47,6 @@ export default function Footer() {
                             </ul>
                         </div>
                     </div>
-
                     <div className="">
                         <h3 className="text-2xl mb-6">Pages</h3>
                         <ul className=' text-sm space-y-2 text-base text-[#ededed]'>
