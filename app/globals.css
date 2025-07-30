@@ -18,9 +18,10 @@ body {
   --foreground: #171717;
 }
 
-html {
+html, body {
+  overflow-y: scroll;
   height: 100%;
-  overflow: auto;
+  touch-action: auto;
   -webkit-overflow-scrolling: touch;
 }
 
