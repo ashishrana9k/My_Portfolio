@@ -8,6 +8,7 @@ import Footer from "./component/Footer";
 import About0 from "./sections/About0";
 import Projects from "./sections/Projects";
 
+
 export default function Home() {
   return (
     <>

@@ -17,10 +17,8 @@ body {
   --background: #ffffff;
   --foreground: #171717;
 }
-
-html, body {
+ body {
   overflow-y: scroll;
-  height: 100%;
   touch-action: auto;
   -webkit-overflow-scrolling: touch;
 }
@@ -80,7 +78,6 @@ body {
 
 .shadowx-hover:hover {
   box-shadow: 0 0 10px   rgba(255, 255, 255, 0.28);
-  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
 }
 
 .white-image {
