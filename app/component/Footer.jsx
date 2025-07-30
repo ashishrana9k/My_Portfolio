@@ -12,16 +12,13 @@ export default function Footer() {
 
     return (
         <footer className=" container ">
-            <div className=" mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="grid grid-cols-1 md:grid-cols-5  gap-8 py-12">
-
-                    {/* border border-[#393A3D] */}
-
-                    <div className="space-y-4 md:col-span-2 border-r border-[#393A3D]">
+            <div className=" md:text-left mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="grid grid-cols-1 md:grid-cols-5  gap-8 py-12 text-center md:text-left">
+                    <div className=" space-y-4 md:col-span-2 border-r border-[#393A3D] ">
                         <div className="flex items-center space-x-2">
                             <span className="text-4xl font-semibold">Pagedone</span>
                         </div>
-                        <ul className="text-lg space-y-2 text-">
+                        <ul className=" text-lg space-y-2 text-">
                             <li className="flex items-center space-x-2">
                                 <IoIosMail className="text-2xl" />
                                 <span>ashishrana30012000@gmail.com</span>
@@ -35,14 +32,14 @@ export default function Footer() {
                                 <span>Dharamshala, Himachal Pradesh, India</span>
                             </li>
                         </ul>
-                        <div>
-                            <ul className="flex text-4xl gap-4 pt-5">
-                                <li>
+                        <div className="">
+                            <ul className="flex justify-center md:justify-start text-4xl gap-4 pt-5">
+                                <li className="border border-[#393A3D] rounded-full">
                                     <a href="https://www.linkedin.com/in/ashish-rana-3b164228a/" target="_black">
-                                        <CiLinkedin className="cursor-pointer  hover:text-white shadowx-hover bg-[#393A3D] border border-[#393A3D]  text-5xl  p-2 rounded-full" />
+                                        <CiLinkedin className="cursor-pointer  hover:text-white  shadowx-hover bg-[#393A3D] text-5xl  p-2 rounded-full" />
                                     </a>
                                 </li>
-                                <li>
+                                <li className="border border-[#393A3D] rounded-full">
                                     <a href="https://github.com/ashishrana9k">
                                         <FaGithub className="cursor-pointer  hover:text-white shadowx-hover bg-[#393A3D] border border-[#393A3D]  text-5xl  p-2 rounded-full" />
                                     </a>
@@ -58,13 +55,13 @@ export default function Footer() {
                                 <a href="">  Home</a>
                             </li>
                             <li className="cursor-pointer hover:text-gray-300 relative text-base ">
-                                  <a href="#about">About</a>
+                                <a href="#about">About</a>
                             </li>
                             <li className="cursor-pointer hover:text-gray-300 relative text-base ">
-                               <a href="#projects">Work</a>
+                                <a href="#projects">Work</a>
                             </li>
                             <li className="cursor-pointer hover:text-gray-300 relative text-base ">
-                              <a href="#about">Skills</a> 
+                                <a href="#about">Skills</a>
                             </li>
                             <li className="cursor-pointer hover:text-gray-300 relative text-base ">
                                 Contact

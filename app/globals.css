@@ -44,6 +44,7 @@ body {
   0% {
     transform: translateX(100%);
   }
+
   100% {
     transform: translateX(-100%);
   }
@@ -59,7 +60,9 @@ body {
 }
 
 .shadowx-hover:hover {
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.28);
+  /* box-shadow: 0 0 10px rgba(255, 255, 255, 0.28); */
+ box-shadow: rgb(237, 237, 237) 0px 0px 9px -2px;
+
 }
 
 .white-image {
@@ -75,10 +78,12 @@ body {
     transform: translateY(0px) rotate(0deg);
     box-shadow: 0 0 40px rgba(255, 165, 0, 0.6);
   }
+
   50% {
     transform: translateY(10px) rotate(3deg);
     box-shadow: 0 0 60px rgba(255, 140, 0, 0.8);
   }
+
   100% {
     transform: translateY(0px) rotate(0deg);
     box-shadow: 0 0 40px rgba(255, 165, 0, 0.6);
@@ -124,9 +129,11 @@ body {
   0% {
     transform: translateX(-50%) scale3d(1, 1, 1) rotatex(0deg) rotatey(0deg) rotatez(0deg);
   }
+
   20.25% {
     transform: translateX(-50%) scale3d(1, 1, 1) rotatex(0deg) rotatey(90deg) rotatez(0deg);
   }
+
   100% {
     transform: translateX(-50%) scale3d(1, 1, 1) rotatex(0deg) rotatey(90deg) rotatez(0deg);
   }
