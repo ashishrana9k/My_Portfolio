@@ -19,7 +19,9 @@ body {
 }
 
 html {
-  scroll-behavior: auto;
+  height: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 /* @theme inline {

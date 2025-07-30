@@ -30,7 +30,6 @@ export default function Hero() {
     );
   };
 
-
   return (
     <div className="container">
       <div className="mx-auto lg:px-8 mt-45 lg:mt-12">
@@ -47,9 +46,7 @@ export default function Hero() {
                 </p>
               </div>
             </ScrollFadeIn>
-            {/* </div> */}
 
-            {/* <div className="container"> */}
             <ScrollFadeIn delay={0.2}>
               <div className="flex  justify-center items-center gap-6 my-12 lg:mt-20">
                 <button className="cursor-pointer relative overflow-hidden px-4 py-3 xl:px-8 xl:py-4 rounded-lg text-white font-medium bg-[#52cfe5] transition-colors duration-300 group">
