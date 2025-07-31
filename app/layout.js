@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="antialiased">
         <Smoth>
-           <CursorMotion />
+         <div className="hidden md:block">  <CursorMotion /></div>
           {children}
         </Smoth>
       </body>
