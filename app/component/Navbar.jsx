@@ -70,7 +70,7 @@ export default function Navbar() {
                   <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-[#52cfe5] transition-all duration-500 group-hover:w-full"></span>
                 </li>
                 <li className="cursor-pointer hover:text-gray-300 relative text-lg transition-all duration-300 ease-in-out group">
-                  <a href="#abouut">Skills</a>
+                  <a href="#about">Skills</a>
                   <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-[#52cfe5] transition-all duration-500 group-hover:w-full"></span>
                 </li>
                 <li className="cursor-pointer hover:text-gray-300 relative text-lg transition-all duration-300 ease-in-out group">
@@ -110,7 +110,7 @@ export default function Navbar() {
           <a href="#home" className="block text-lg hover:text-[#52cfe5]">Home</a>
           <a href="#about" className="block text-lg hover:text-[#52cfe5]">About</a>
           <a href="#projects" className="block text-lg hover:text-[#52cfe5]">Work</a>
-          <a href="#skills" className="block text-lg hover:text-[#52cfe5]">Skills</a>
+          <a href="#about" className="block text-lg hover:text-[#52cfe5]">Skills</a>
           <a href="#contact" className="block text-lg hover:text-[#52cfe5]">Contact</a>
         </div>
 

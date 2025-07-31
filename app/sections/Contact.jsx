@@ -30,7 +30,7 @@ export default function Contact() {
         });
 
         const data = await res.json();
-        setResponseMessage(data.message); // Show response message below button
+        setResponseMessage(data.message); 
     };
 
     return (
