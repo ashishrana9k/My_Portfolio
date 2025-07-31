@@ -95,7 +95,7 @@ export default function Footer() {
                 </div>
 
                 <div className="border-t border-[#393A3D]  py-6 text-center text-md text-gray-500">
-                    ©Ashishrana{year}, All rights reserved.
+                    <span> ©Ashishrana{year}, All rights reserved.</span>
                 </div>
             </div>
         </footer>
