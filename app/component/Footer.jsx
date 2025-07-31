@@ -40,7 +40,7 @@ export default function Footer() {
                                     </a>
                                 </li>
                                 <li className="border border-[#393A3D] rounded-full">
-                                    <a href="https://github.com/ashishrana9k">
+                                    <a href="https://github.com/ashishrana9k" target="_blank">
                                         <FaGithub className="cursor-pointer  hover:text-white shadowx-hover bg-[#393A3D] border border-[#393A3D]  text-5xl  p-2 rounded-full" />
                                     </a>
                                 </li>

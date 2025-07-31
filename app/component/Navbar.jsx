@@ -70,7 +70,7 @@ export default function Navbar() {
                   <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-[#52cfe5] transition-all duration-500 group-hover:w-full"></span>
                 </li>
                 <li className="cursor-pointer hover:text-gray-300 relative text-lg transition-all duration-300 ease-in-out group">
-                  <a href="#skills">Skills</a>
+                  <a href="#abouut">Skills</a>
                   <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-[#52cfe5] transition-all duration-500 group-hover:w-full"></span>
                 </li>
                 <li className="cursor-pointer hover:text-gray-300 relative text-lg transition-all duration-300 ease-in-out group">
@@ -81,13 +81,15 @@ export default function Navbar() {
             </div>
 
             <div>
-              <button className="cursor-pointer relative overflow-hidden px-6 py-3 rounded-lg text-white font-medium bg-[#52cfe5] transition-colors duration-300 group">
-                <span className="relative z-10">
-                  Let's Talk
-                  <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 inline mx-2 fill-current text-white rotate-[-45deg] group-hover:rotate-[0deg] transition-transform duration-150" viewBox="0 0 448 512">
-                    <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
-                  </svg>
-                </span>
+              <button className="cursor-pointer relative overflow-hidden px-5 py-3 rounded-lg text-white font-medium bg-[#52cfe5] transition-colors duration-300 group">
+                <a href="#contact">
+                  <span className="relative z-10">
+                    Let's Chat
+                    <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 inline mx-2 fill-current text-white rotate-[-45deg] group-hover:rotate-[0deg] transition-transform duration-150" viewBox="0 0 448 512">
+                      <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                    </svg>
+                  </span>
+                </a>
                 <span className="absolute top-0 left-0 w-full h-full -translate-x-full bg-[#2ea2b8] transition-all duration-500 ease-in-out group-hover:translate-x-0"></span>
               </button>
             </div>

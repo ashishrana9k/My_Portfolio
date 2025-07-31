@@ -13,7 +13,7 @@ export default function CustomCursor() {
 
     const handleMouseOver = (e) => {
       const tagName = e.target.tagName.toLowerCase();
-      if (['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p', 'span', 'img', 'button', 'a'].includes(tagName)) {
+      if (['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p', 'span', 'img', 'button','a'].includes(tagName)) {
         setIsHovering(true);
       } else {
         setIsHovering(false);

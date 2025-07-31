@@ -77,7 +77,7 @@ export default function Projects() {
   }, [instanceRef])
 
   return (
-    <div className="container mx-auto px-4 py-8 xl:py-20">
+    <div className="container mx-auto px-4 py-8 xl:py-20" id="projects">
       <ScrollFadeIn delay={0.2}>
         <div className="text-center pb-12 space-y-6">
           <h2 className="text-4xl xl:text-5xl text-[#22d3ee] font-bold">Projects</h2>
@@ -128,9 +128,9 @@ export default function Projects() {
             }
 
           ].map((item, index) => (
-            <div key={index} className="keen-slider__slide my-8 py-3 rounded-xl px-2 h-full ">
+            <div key={index} className="keen-slider__slide py-3 rounded-xl px-2 h-full ">
               <ScrollFadeIn delay={0.2}>
-                <div className="w-full border border-[#393A3D] rounded-xl shadowx-hover bg-[#111214] transition-all duration-300 overflow-hidden" id="projects">
+                <div className="w-full border border-[#393A3D] rounded-xl shadowx-hover bg-[#111214] transition-all duration-300 overflow-hidden " >
 
                   <video
                     autoPlay

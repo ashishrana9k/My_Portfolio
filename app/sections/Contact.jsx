@@ -34,7 +34,7 @@ export default function Contact() {
     };
 
     return (
-        <div className='py-20'>
+        <div className='py-20' id='contact'>
             <div className="text-center pb-20 space-y-6">
                 <h2 className="text-4xl xl:text-5xl text-[#22d3ee] font-bold">Contact</h2>
                 <p className="mt-2">
@@ -43,7 +43,7 @@ export default function Contact() {
             </div>
 
             <div className="bg-[url('https://a-static.besthdwallpaper.com/gray-map-illustration-world-map-wallpaper-2880x1800-81653_8.jpg')] bg-cover bg-center relative px-4 xl:h-160 py-12 xl:p-0">
-                <div className="absolute inset-0 bg-black/88 z-10" id='contact'></div>
+                <div className="absolute inset-0 bg-black/88 z-10" ></div>
                 <div className="container relative z-20">
                     <div className="grid md:grid-cols-2 gap-10">
                         <div className="flex flex-col justify-evenly xl:h-150">
