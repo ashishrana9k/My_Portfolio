@@ -128,7 +128,7 @@ export default function Projects() {
             }
 
           ].map((item, index) => (
-            <div key={index} className="keen-slider__slide py-3 rounded-xl px-2 h-full ">
+            <div key={index} className="keen-slider__slide py-3 rounded-xl px-2  ">
               <ScrollFadeIn delay={0.2}>
                 <div className="w-full border border-[#393A3D] rounded-xl shadowx-hover bg-[#111214] transition-all duration-300 overflow-hidden " >
 
