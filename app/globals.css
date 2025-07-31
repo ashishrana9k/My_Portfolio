@@ -60,7 +60,6 @@ body {
 }
 
 .shadowx-hover:hover {
-  /* box-shadow: 0 0 10px rgba(255, 255, 255, 0.28); */
  box-shadow: rgb(237, 237, 237) 0px 0px 9px -2px;
 
 }
@@ -146,3 +145,4 @@ body {
     linear-gradient(180deg, rgba(0, 0, 0, 0) 10%, rgba(109, 109, 109, 0.7) 50%, rgba(0, 0, 0, 0)),
     linear-gradient(270deg, rgba(0, 0, 0, 0) 10%, rgba(109, 109, 109, 0.7) 50%, rgba(0, 0, 0, 0));
 }
+

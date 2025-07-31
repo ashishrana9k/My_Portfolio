@@ -9,15 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^7.0.0",
+    "@fortawesome/free-solid-svg-icons": "^7.0.0",
+    "@fortawesome/react-fontawesome": "^0.2.3",
     "@studio-freight/lenis": "^1.0.42",
     "clsx": "^2.1.1",
     "flowbite": "^3.1.2",
     "flowbite-react": "^0.12.3",
     "framer-motion": "^12.23.9",
+    "gsap": "^3.13.0",
     "keen-slider": "^6.8.6",
     "lucide-react": "^0.525.0",
     "motion": "^12.23.10",
     "next": "15.4.2",
+    "nodemailer": "^7.0.5",
     "ogl": "^1.0.11",
     "react": "19.1.0",
     "react-dom": "19.1.0",
@@ -31,6 +36,7 @@
     "vanta": "^0.5.24"
   },
   "devDependencies": {
+    "@babel/helper-module-imports": "^7.27.1",
     "@tailwindcss/postcss": "^4",
     "tailwindcss": "^4"
   }

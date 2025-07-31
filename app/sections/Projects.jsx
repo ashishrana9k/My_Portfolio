@@ -104,7 +104,7 @@ export default function Projects() {
               title: "Admin Panel",
               link: "https://admin-panel-mu-olive.vercel.app/",
               description:
-                "An interactive admin dashboard built with MUI, Next.js, and Tailwind CSS.",
+                "An interactive admin dashboard built with MUI, Next.js, and Tailwind CSS. only for the Desktop View",
             },
             {
               video: "/video2.mp4",
@@ -128,9 +128,9 @@ export default function Projects() {
             }
 
           ].map((item, index) => (
-            <div key={index} className="keen-slider__slide my-8 py-3 rounded-xl px-2">
+            <div key={index} className="keen-slider__slide my-8 py-3 rounded-xl px-2 h-full ">
               <ScrollFadeIn delay={0.2}>
-                <div className="w-full border border-[#393A3D] rounded-xl shadowx-hover bg-[#111214] transition-all duration-300 overflow-hidden h-120" id="projects">
+                <div className="w-full border border-[#393A3D] rounded-xl shadowx-hover bg-[#111214] transition-all duration-300 overflow-hidden" id="projects">
 
                   <video
                     autoPlay

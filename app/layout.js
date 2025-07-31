@@ -1,5 +1,6 @@
 import "./globals.css";
 import Smoth from './component/Smoth';
+import  CursorMotion from './component/CursorMotion';
 
 export const metadata = {
   title: "Create Next App",
@@ -11,6 +12,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="antialiased">
         <Smoth>
+           <CursorMotion />
           {children}
         </Smoth>
       </body>

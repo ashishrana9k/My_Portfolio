@@ -12,11 +12,11 @@ export default function Footer() {
 
     return (
         <footer className=" container ">
-            <div className=" md:text-left mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="grid grid-cols-1 md:grid-cols-5  gap-8 py-12 text-center md:text-left">
+            <div className=" md:text-left mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-6">
+                <div className="grid grid-cols-1 md:grid-cols-5  gap-8 pb-12 text-center md:text-left">
                     <div className=" space-y-4 md:col-span-2 border-r border-[#393A3D] ">
                         <div className="flex items-center space-x-2">
-                            <span className="text-4xl font-semibold">Pagedone</span>
+                            <span className="text-4xl font-semibold">Portfolio</span>
                         </div>
                         <ul className=" text-lg space-y-2 text-">
                             <li className="flex items-center space-x-2">
