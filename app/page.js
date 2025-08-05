@@ -12,7 +12,7 @@ import Projects from "./sections/Projects";
 export default function Home() {
   return (
     <>
-      <div className="bg-[url('https://tamalsen.dev/wp-content/uploads/2021/07/tamalsen-home-cover.jpg')] bg-cover bg-center h-[70vh] sm:h-[100vh] md:h-[100vh] xl:h-[104vh]  relative">
+      <div className="bg-[url('https://tamalsen.dev/wp-content/uploads/2021/07/tamalsen-home-cover.jpg')] bg-cover bg-center h-[100vh] sm:h-[100vh] md:h-[120vh] xl:h-[140vh]  relative">
         <Navbar />
         <Hero />
         <div className="absolute left-[68.5%] md:left-[56%] md:top-[27%] top-[26%] xl:top-[25%]"><div className="sun-animation h-8 w-8 md:h-12 md:w-12 z-[-1] rounded-full bg-gradient-to-br from-yellow-400 to-orange-500 shadow-[0_0_60px_rgba(255,165,0,0.7)] animate-pulse-sun"></div>
