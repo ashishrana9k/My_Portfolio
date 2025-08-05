@@ -38,7 +38,7 @@ export default function Hero() {
           <div className="w-full space-y-4 md:space-y-12">
 
             <ScrollFadeIn delay={0.2}>
-              <div className=" lg:mt-60 xl:mt-80 z-9 ">
+              <div className=" lg:mt-60 xl:mt-105 z-9 ">
                 <div className="text-4xl sm:text-5xl md:text-6xl xl:text-8xl font-bold">
                   <h1 className=''>ASHISH RANA</h1>
                 </div>
