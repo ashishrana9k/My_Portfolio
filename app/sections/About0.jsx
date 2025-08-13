@@ -52,7 +52,7 @@ export default function About0() {
                                         <div className="shadowx-hover border border-[#393A3D] p-6 rounded-lg">
                                             <div className="flex items-center text-gray-400 text-sm mb-3">
                                                 <Calendar className="w-4 h-4 mr-2" />
-                                                2023 – 2024
+                                                2024 – 2025
                                             </div>
                                             <h3 className="text-lg font-medium mb-3">
                                                 Frontend Learning Journey
@@ -67,7 +67,7 @@ export default function About0() {
                                         <div className="shadowx-hover border border-[#393A3D] p-6 rounded-lg">
                                             <div className="flex items-center text-gray-400 text-sm mb-3">
                                                 <Calendar className="w-4 h-4 mr-2" />
-                                                2021 – 2024
+                                                2019 – 2022
                                             </div>
                                             <h3 className=" text-lg font-medium mb-3">
                                                 Bachelor of Arts
@@ -84,7 +84,7 @@ export default function About0() {
                                         <div className=" p-6 rounded-lg shadowx-hover border border-[#393A3D]">
                                             <div className="flex items-center text-gray-400 text-sm mb-3">
                                                 <Calendar className="w-4 h-4 mr-2" />
-                                                2019 – 2021
+                                                2015 – 2017
                                             </div>
                                             <h3 className="text-lg font-medium mb-3">
                                                 Senior Secondary Education (12th)

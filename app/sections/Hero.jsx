@@ -36,7 +36,7 @@ export default function Hero() {
       <div className="mx-auto lg:px-8  lg:mt-12">
         <div className="flex justify-center items-center text-center">
           <div className="w-full space-y-4 md:space-y-12">
-            
+
             <ScrollFadeIn delay={0.2}>
               <div className=" lg:mt-60 xl:mt-105 z-9 ">
                 <div className="text-4xl sm:text-5xl md:text-6xl xl:text-8xl font-bold">
@@ -50,7 +50,7 @@ export default function Hero() {
 
             <ScrollFadeIn delay={0.2}>
               <div className="flex  justify-center items-center gap-6 my-12 lg:mt-20">
-                <button className="cursor-pointer relative overflow-hidden px-6 py-3 rounded-lg text-white font-medium bg-[#52cfe5] transition-colors duration-300 group">
+                <button className="cursor-pointer relative overflow-hidden px-4 py-2 xl:px-10 xl:py-4 rounded-lg text-white font-medium bg-[#52cfe5] transition-colors duration-300 group">
                   <a href="https://github.com/ashishrana9k" target='_blank'>
                     <span className="relative z-10">
                       Github
@@ -62,7 +62,7 @@ export default function Hero() {
                   <span className="absolute top-0 left-0 w-full h-full -translate-x-full bg-[#2ea2b8] transition-all duration-500 ease-in-out group-hover:translate-x-0"></span>
                 </button>
 
-                <button className="cursor-pointer relative overflow-hidden px-4 py-3 xl:px-10 xl:py-4 rounded-lg text-white font-medium border border-gray-700 hover:border-gray-500 text-gray-700 hover:text-gray-100 transition-colors duration-300 group">
+                <button className="cursor-pointer relative overflow-hidden px-4 py-2 xl:px-10 xl:py-4 rounded-lg text-white font-medium border border-gray-700 hover:border-gray-500 text-gray-700 hover:text-gray-100 transition-colors duration-300 group">
                   <a href='/resume01.pdf' target='_blank' rel="noopener noreferrer">
                     <span className="relative z-10 ">Resume</span>
                     <span className="absolute top-0 left-0  h-full"></span>

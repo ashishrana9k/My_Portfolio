@@ -15,7 +15,7 @@ export default function Home() {
       {/* <div className="bg-[url('https://tamalsen.dev/wp-content/uploads/2021/07/tamalsen-home-cover.jpg')] bg-cover bg-center h-[90vh] sm:h-[80vh] md:h-[120vh] xl:h-[120vh]  relative"> */}
       <div className="bg-[url('https://tamalsen.dev/wp-content/uploads/2021/07/tamalsen-home-cover.jpg')] bg-cover bg-center h-[95vh] md:h-[100vh] lg:h-[115vh] xl:h-[120vh] relative">
         <Navbar />
-      <div className="absolute left-0 right-0 bottom-20">
+      <div className="absolute left-0 right-0 bottom-10 lg:bottom-10">
           <Hero />
       </div>
         <div className="absolute left-[68.5%] md:left-[56%] md:top-[27%] top-[26%] xl:top-[25%]"><div className="sun-animation h-8 w-8 md:h-12 md:w-12 z-[-1] rounded-full bg-gradient-to-br from-yellow-400 to-orange-500 shadow-[0_0_60px_rgba(255,165,0,0.7)] animate-pulse-sun"></div>
