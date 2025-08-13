@@ -33,10 +33,10 @@ export default function Hero() {
 
   return (
     <div className="container">
-      <div className="mx-auto lg:px-8 mt-45 lg:mt-12">
+      <div className="mx-auto lg:px-8  lg:mt-12">
         <div className="flex justify-center items-center text-center">
           <div className="w-full space-y-4 md:space-y-12">
-
+            
             <ScrollFadeIn delay={0.2}>
               <div className=" lg:mt-60 xl:mt-105 z-9 ">
                 <div className="text-4xl sm:text-5xl md:text-6xl xl:text-8xl font-bold">
