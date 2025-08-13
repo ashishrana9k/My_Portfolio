@@ -63,7 +63,7 @@ export default function Hero() {
                 </button>
 
                 <button className="cursor-pointer relative overflow-hidden px-4 py-3 xl:px-10 xl:py-4 rounded-lg text-white font-medium border border-gray-700 hover:border-gray-500 text-gray-700 hover:text-gray-100 transition-colors duration-300 group">
-                  <a href='/resume.pdf' target='_blank' rel="noopener noreferrer">
+                  <a href='/resume01.pdf' target='_blank' rel="noopener noreferrer">
                     <span className="relative z-10 ">Resume</span>
                     <span className="absolute top-0 left-0  h-full"></span>
                   </a>
